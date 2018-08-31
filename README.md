@@ -1,3 +1,3 @@
 # computerarchiteture
 
-Codes to test computer performance.
+Codes to test computer performance in C++.

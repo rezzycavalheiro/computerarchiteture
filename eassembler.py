@@ -1,4 +1,7 @@
 def openfile():
+    """
+    função para ler os arquivos para o assembler
+    """
     user_input = input("Entre com o nome do arquivo: ")
     opcodes = '/Users/renata.cavalheiro/OPCODES.esym'
     regcodes = '/Users/renata.cavalheiro/REGCODES.esym'
@@ -11,7 +14,7 @@ def openfile():
         print(regcodes_open.read())
         regcodes_open.close()
     
-    
+
     
     
     

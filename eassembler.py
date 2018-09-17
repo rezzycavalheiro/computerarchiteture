@@ -14,7 +14,7 @@ def assemble():
         print(regcodes_open.read())
         #regcodes_open.close()
 
-def dictionary():
+def dictionary(var):
     d = {
         "NOP": 0,
         "HALT": 1,
@@ -39,13 +39,15 @@ def dictionary():
     #opcodes = '/Users/renata.cavalheiro/OPCODES.esym'
     #code = open(opcodes, 'r')
     #code.read()
-    code = ["NOP"]
+    code = [var]
     for i in d:
         for line in code:
-            for item in d:
-                if line == item:
-                    position = d[i]
-                    print(position)
+            if line == i:
+                position = d[i]
+                return position
+    
+                
+ 
     
                 
     
